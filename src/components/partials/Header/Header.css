@@ -1,0 +1,24 @@
+.header {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    border: 2px solid white;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight:  700;
+    color: #eee;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
